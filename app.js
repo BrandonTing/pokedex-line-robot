@@ -3,9 +3,9 @@ var linebot = require('linebot');
 
 // 用於辨識Line Channel的資訊
 var bot = linebot({
-    channelId: '1655652906',
-    channelSecret: 'a7154b0695304eced5bbc98f99d00c05',
-    channelAccessToken: '+y0l+86z0nsIRniwUVnz7ajTkQKEUNDdwrm34IHeRdfPSCbvC14zsUnmBRZyX8ZEkd5iKPxev275knB30b3dVATMWmVldmmxAUVVB8xPvXVrVKe6Hu6k+ZgBMxtIDFdBsdYRI9YitbjS7Y73QD+3ewdB04t89/1O/w1cDnyilFU='
+    channelId: '替換成你的CHANNEL_ID',
+    channelSecret: '替換成你的CHANNEL_SECRET',
+    channelAccessToken: '替換成你的CHANNEL_ACCESS_TOKEN'
 });
 
 // 當有人傳送訊息給Bot時
